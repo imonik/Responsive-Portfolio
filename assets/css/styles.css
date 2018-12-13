@@ -226,7 +226,7 @@ footer p{
 	.main-section{
 		width: 550px;
 		margin: 0 auto;
-		height: 650px;
+		height: 750px;
 		background-color: #ffffff;
 		margin-top: 40px;
 		margin-bottom: 40px;
@@ -257,6 +257,18 @@ footer p{
 		margin:auto;
 		margin-top: 20px;
 		height: 600px;
+	}
+
+	#profile {
+		display: inline-block;
+
+		margin-left: 100px;
+		margin-right: 100px;
+		width: 100%;
+	}
+
+	#second {
+		display: none;
 	}
 
 	.content p{
@@ -337,20 +349,20 @@ footer p{
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
 	.header-section{
 		background-color: #ffffff;
-		height: 120px;
+		height: 60px;
 		border-bottom: 2px solid #cccccc;	
 	}
 
 	header {
 		position: relative;
 		float: left;
-		margin-left: 0px;
-		height: 47px;
-		width: 640px;	
+		margin-left: 100px;
+		height: 40px;
+		width: 200px;	
 	}
 
 	header h1 {
@@ -358,7 +370,7 @@ footer p{
 	    top: 0px;
 	    background-color: #4aaaa5;
 		color: white;
-		padding: 25px 10px 23px 10px;
+		padding: 20px 10px 23px 10px;
 		font-weight: bold;
 		width: 100%;
 		font-size: 18px;
@@ -368,14 +380,14 @@ footer p{
 	nav {
 		float: right;
 		width: 220px;
-		margin-right: 190px;
+		margin-right: 90px;
 		height: 60px;	
 	}
 
 	nav li {
 		position: relative;
 	    top: 15px;
-		padding: 25px 5px 5px 5px;
+		padding: 15px 5px 5px 5px;
 	}
 
 	.main-section{
@@ -420,7 +432,7 @@ footer p{
 
 	 img{
 	 	float:left;
-	 	max-width: 300px;
+	 	max-width: 50%;
 	 	margin-right: 15px; 
 	 	margin-left: 80px;
 	 	min-height: 200px;
@@ -456,17 +468,17 @@ footer p{
 	.container {
 	    position: relative;
 	    text-align: center;
-	    width:100%;
+	    width:45%;
 	    float: left;
 	    margin:10px 10px 10px 10px; 
 	}
 
 	.centered {
-		width: 300px;
+		width: 58%;
 		height: 60px;
 		background-color: #4aaaa5;
 	    position: absolute;
-	    top: 85%;
+	    top: 82%;
 	    left: 47%;
 	    transform: translate(-51%, -50%);
 	    color: white;
